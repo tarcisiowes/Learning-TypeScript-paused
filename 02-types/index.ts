@@ -27,6 +27,15 @@ enum Colors {
   black = '#000'
 }
 
+enum Cor {
+  Branco, // 0  por padrao ele segue a sequecia
+  Amarelo, // 1
+  Verde, // 2
+  Azul = 100, // posso atribuir um valor
+  Roxo, // o proximo segue o valor de cima 101
+  Vermelho =100 // posso atribuir valores repetidos 
+}
+
 // any
 let coisa: any
 coisa = [1]
